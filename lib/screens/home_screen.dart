@@ -334,7 +334,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ],
               )),
-              const SizedBox(height: 5,),
               GestureDetector(
                 onTap: () async{
                   if(_formkey.currentState!.validate()){
